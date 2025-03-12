@@ -1,1 +1,1 @@
-from .transactions import Transactions # noqa
+from .transactions import Transactions  # noqa

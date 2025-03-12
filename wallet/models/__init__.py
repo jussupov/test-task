@@ -1,1 +1,1 @@
-from .wallet import Wallet # noqa
+from .wallet import Wallet  # noqa

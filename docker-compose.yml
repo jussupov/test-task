@@ -33,7 +33,7 @@ services:
     volumes:
       - .:/app
     command: >
-      poetry run gunicorn --bind 0.0.0.0:8000 b2broker.wsgi:application
+      poetry run gunicorn --reload --bind 0.0.0.0:8000 b2broker.wsgi:application
 
 
 volumes:
