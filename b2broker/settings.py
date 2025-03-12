@@ -46,9 +46,13 @@ DJANGO_APPS = [
 THIRD_PARTY_APPS = [
     'rest_framework',
     'rest_framework_json_api',
+    'django_extensions'
 ]
 
-LOCAL_APPS = []
+LOCAL_APPS = [
+    'transactions',
+    'wallet'
+]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
